@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  #app {
+    margin-top: 50px;
+  }
+  
+  #flashcard-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  #title {
+    font-size: 2em;
+  }
+  
+  #card {
+    margin-top: 20px;
+    padding: 30px;
+    /* The background-color here will be overridden by JavaScript when the arrows are clicked */
+    background-color: #eaeaea;
+    border-radius: 8px;
+    font-size: 1.5em;
+    width: 300px;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  /* Navigation buttons */
+  #navigation button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: black; /* Black background for the buttons */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #navigation button img {
+    filter: brightness(0) invert(1); /* Make the arrow images white */
+  }
+  
+  #navigation button:hover {
+    opacity: 0.7;
+  }
+  
+  /* Image styles for the flashcard image */
+  .card-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
